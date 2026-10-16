@@ -9,7 +9,7 @@ os.system("cls")
 n = int(input("Informe um número inteiro: "))
 
 #contador
-while n >= 0: 
+while n >= 0:       #Laço de repertição WHILE
     os.system("cls")
     print(f"{n}...")
     time.sleep(1)
