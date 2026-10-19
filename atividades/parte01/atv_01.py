@@ -4,26 +4,26 @@ CRIE UM PROGRAMA QUE RECEBA O NOME, A MASSA EM KG E A ALTURA EM METROS DO USÚAR
 '''
 nome = input(" Digite seu nome ").strip().title()
 altura = float(input(" Digite sua altura ").replace(",","."))
-peso = float(input(" Digite seu peso ").replace(",","."))
+massa = float(input(" Digite seu peso ").replace(",","."))
 
-imc = peso / (altura * altura)
+imc = massa / (altura * altura)
 
 if imc <= 18.5:
-    print("Magro!")
+    print(f"Magro! IMC {imc:.2f}")
 
 elif imc <= 24.9:
-    print("Peso norma!")
+    print(f"Peso norma! IMC {imc:.2f}")
 
 elif imc <= 29.9:
-    print("Sobrepeso!")
+    print(f"Sobrepeso! IMC {imc:.2f}")
 
 elif imc <= 34.9:
-    print("Obesidade grau 1!")
+    print(f"Obesidade grau 1! IMC {imc:.2f}")
 
 elif imc <= 39.9:
-    print("Obesidade grau 2!")
+    print(f"Obesidade grau 2! IMC {imc:.2f}")
 
 else:
-    print("Grave")
+    print(f"Grave! IMC {imc:.2f}")
 
     
