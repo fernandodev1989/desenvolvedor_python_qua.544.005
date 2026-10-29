@@ -21,6 +21,7 @@ def main():
         print("Valores informados não são de equação do 2° grau.")
 
 if __name__ == "__main__":
+    
     main()
 
 
