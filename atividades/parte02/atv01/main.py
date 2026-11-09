@@ -1,4 +1,3 @@
-
 # parte 02 atividade 01
 '''
 Crie um programa que faça as seguintes operações:
@@ -51,10 +50,10 @@ while True:
                 print("\n--- LISTA DE UTILIZADORES ---")
                 for indice, usuario in enumerate(usuarios):
                     print(f"\n[{indice + 1}] Utilizador:")
-                    print(f"  Nome:     {usuario['nome']}")
-                    print(f"  Telefone: {usuario['telefone']}")
-                    print(f"  E-mail:   {usuario['email']}")
-                    print(f"  CPF:      {usuario['cpf']}")
+                    print(f"   Nome:     {usuario['nome']}")
+                    print(f"   Telefone: {usuario['telefone']}")
+                    print(f"   E-mail:   {usuario['email']}")
+                    print(f"   CPF:      {usuario['cpf']}")
                 print("-" * 25)
             input("\nPressione Enter para continuar...")
             os.system("cls" if os.name == "nt" else "clear")
