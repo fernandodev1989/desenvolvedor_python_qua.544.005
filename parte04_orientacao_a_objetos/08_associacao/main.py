@@ -1,6 +1,6 @@
 import os
 
-from model import Pessoa,Endereco
+from model import Pessoa, Endereco
 
 
 def limpar():
@@ -13,18 +13,18 @@ def main():
     limpar()
 
     usuario.nome = input("Informe o nome: ").strip().title()
-    usuario.cpf = input("Informe o cpf: ").strip()
-    usuario.email = input("Informe o email: ").strip().lower()
+    usuario.cpf = input("Informe o CPF: ").strip()
+    usuario.email = input("Informe o e-mail: ").strip().lower()
     usuario.telefone = input("Informe o telefone: ").strip()
-    usuario.cep = input("Informe o cep: ").strip()
-    usuario.uf = input("Informe o uf: ").strip().upper()
-    usuario.cidade = input("Informe a cidade: ").strip().title()
-    usuario.bairro = input("Informe o bairro: ").strip().title()
-    usuario.logradouro = input("Informe o logradouro: ").strip()
-    usuario.complemento = input("Informe o complemento: ")
-    usuario.numero = input("Informe o número: ").strip()
+    endereco.cep = input("Informe o CEP: ").strip()
+    endereco.uf = input("Informe a UF: ").strip().upper()
+    endereco.cidade = input("Informe a cidade: ").strip().title()
+    endereco.bairro = input("Informe o bairro: ").strip().title()
+    endereco.logradouro = input("Informe o logradouro: ").strip()
+    endereco.complemento = input("Informe o complemento: ")
+    endereco.numero = input("Informe o número: ").strip()
 
-    #saida de dados
+    # saída de dados
     usuario.exibir_dados()
 
 
