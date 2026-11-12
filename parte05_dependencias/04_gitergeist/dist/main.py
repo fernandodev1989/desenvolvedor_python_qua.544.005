@@ -22,7 +22,7 @@ auto.write("git add .")
 auto.press("enter")
 time.sleep(1)
 
-auto.write(f'git commit -m "Aula do dia {hoje}"')
+auto.write(f'git commit -m "Aula do dia: {hoje}"')
 auto.press("enter")
 time.sleep(2)
 
